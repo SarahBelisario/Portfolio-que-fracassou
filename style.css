@@ -1,0 +1,61 @@
+.background {
+  display: flex;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(8, 0, 26) 100%);
+  height: 100vh;
+}
+.texto {
+  flex: 0.5;
+}
+* {
+  margin: 0;
+}
+.titulo {
+  font-family: "Comfortaa";
+  font-size: 100px;
+  color: white;
+  margin-left: 180px;
+  padding-top: 200px;
+}
+.sobre {
+  font-family: "Sacramento";
+  font-weight: 100;
+  font-size: 50px;
+  color: white;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.descricao {
+  font-family: "Sacramento";
+  font-weight: 300;
+  font-size: 35px;
+  color: white;
+  margin-left: 200px;
+  margin-top: 0px;
+}
+.redesocial {
+  display: flex;
+  flex-direction: column;
+}
+.redesocial img {
+  width: 50px;
+  padding: 12px;
+  cursor: pointer;
+}
+.caixa {
+  width: 50px;
+  height: 50px;
+  background: #160064;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: 1s;
+}
+.caixa:hover {
+  transform: scale(1.5);
+}
+.caixa img {
+  width: 45px;
+  height: 45px;
+}
