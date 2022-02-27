@@ -62,12 +62,11 @@
   width: 45px;
   height: 45px;
 }
-.personagem img {
+.eu-sarah img {
   height: 700px;
-  margin-top: 125px;
-  margin-left: 90px;
+  transform: translate(-10px, 100px);
 }
-.personagem {
+.eu-sarah {
   flex: 0.4;
 }
 .download {
